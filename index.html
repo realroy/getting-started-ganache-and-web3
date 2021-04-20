@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Counter DApp</title>
+  <script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js@1.3.5/dist/web3.min.js"></script>
+  <script type="module" src="index.js"></script>
+</head>
+<body>
+  <h1>Counter DApp</h1>
+  <form>
+    <p>
+      <label for="address">Address</label>
+      <input id="address" type="text" placeholder="Enter address ...">
+    </p>
+    Status: <span id="status"></span> <br>
+    <hr>
+    <button id="increase">+</button>
+    <label id="count">Loading ...</label>
+    <button id="decrease">-</button>
+  </form>
+</body>
+</html>
